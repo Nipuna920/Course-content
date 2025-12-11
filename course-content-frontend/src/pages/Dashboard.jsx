@@ -8,7 +8,7 @@ import FileUpload from "../components/FileUpload.jsx";
 import ContentList from "../components/ContentList.jsx";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
-import ProfileModal from "../components/ProfileModal.jsx";
+
 
 // API
 import {
