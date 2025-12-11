@@ -9,7 +9,6 @@ import {
 } from "../api/contentApi";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ProfileModal from "../components/ProfileModal";
 import ChatModal from "../components/ChatModal";
 import CommentsModal from "../components/CommentsModal";
 import toast from "react-hot-toast"; // ✅ Import Toast
