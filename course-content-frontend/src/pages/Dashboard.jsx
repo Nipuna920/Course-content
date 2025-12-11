@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import toast from "react-hot-toast"; // ✅ Import Toast
+import toast from "react-hot-toast";
 
 // Components
 import FileUpload from "../components/FileUpload.jsx";
 import ContentList from "../components/ContentList.jsx";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
-
+import ProfileModal from "../components/ProfileModal.jsx";  // ✅ ADD THIS
 
 // API
 import {
